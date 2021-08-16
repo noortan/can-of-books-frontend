@@ -17,21 +17,25 @@ can -of -books - frontend
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
-
+Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Throughout this module, we will create a small app to track what books have impacted you, and what's recommended to read next.
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+   first you have to login through this app using your email and password .
+ then you can select your favorite books .
+
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+
+the application will use the Auth0 identity service to allow users to authenticate their 
+ so that you can authenticate to the site without creating yet-another username/password combo to potentially get hacked or lost.
+ we used these libraries :
+ 1. https://auth0.com/docs/libraries/auth0-react 
+ 2. https://manage.auth0.com/dashboard/us/dev-1-48w08t/ 
+
 
 ## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
-## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you
+4:50 pm/16/8/2021  now the application has afully-functional front end  express server .
 ___________________________________________________________________________________
 
 Name of feature: _____class lab11 ___________________________
